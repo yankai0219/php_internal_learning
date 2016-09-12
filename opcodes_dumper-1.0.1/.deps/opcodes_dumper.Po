@@ -1,0 +1,511 @@
+opcodes_dumper.o: opcodes_dumper.cpp /usr/include/stdc-predef.h \
+ /usr/include/c++/4.8.2/cstdio \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++config.h \
+ /usr/include/bits/wordsize.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/os_defines.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/cpu_defines.h \
+ /usr/include/stdio.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h \
+ /home/keything/php-5.6.25/sapi/embed/php_embed.h \
+ /usr/local/include/php/main/php.h \
+ /usr/local/include/php/main/php_version.h \
+ /usr/local/include/php/Zend/zend.h \
+ /usr/local/include/php/Zend/zend_config.h \
+ /usr/local/include/php/main/../main/php_config.h /usr/include/stdlib.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/bits/byteswap-16.h \
+ /usr/include/xlocale.h /usr/include/sys/types.h /usr/include/time.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
+ /usr/include/string.h /usr/include/math.h /usr/include/bits/huge_val.h \
+ /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ /usr/include/bits/mathinline.h /usr/include/dlfcn.h \
+ /usr/include/bits/dlfcn.h /usr/local/include/php/Zend/zend_errors.h \
+ /usr/local/include/php/Zend/zend_alloc.h \
+ /usr/local/include/php/Zend/../TSRM/TSRM.h \
+ /usr/local/include/php/TSRM/tsrm_config.h \
+ /usr/local/include/php/Zend/zend.h \
+ /usr/local/include/php/Zend/zend_types.h \
+ /usr/local/include/php/Zend/zend_string.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/limits.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/local/include/php/Zend/zend_hash.h \
+ /usr/local/include/php/Zend/zend_ts_hash.h \
+ /usr/local/include/php/Zend/zend_llist.h \
+ /usr/local/include/php/Zend/zend_object_handlers.h \
+ /usr/local/include/php/Zend/zend_ast.h \
+ /usr/local/include/php/Zend/zend_iterators.h \
+ /usr/local/include/php/Zend/zend_stream.h \
+ /usr/local/include/php/Zend/zend_gc.h \
+ /usr/local/include/php/Zend/zend_operators.h /usr/include/errno.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/assert.h \
+ /usr/local/include/php/Zend/zend_strtod.h \
+ /usr/local/include/php/Zend/zend_multiply.h \
+ /usr/local/include/php/Zend/zend_variables.h \
+ /usr/local/include/php/Zend/zend_qsort.h \
+ /usr/local/include/php/main/php_compat.h \
+ /usr/local/include/php/main/php_config.h \
+ /usr/local/include/php/Zend/zend_API.h \
+ /usr/local/include/php/Zend/zend_modules.h \
+ /usr/local/include/php/Zend/zend_compile.h \
+ /usr/local/include/php/Zend/zend_globals.h /usr/include/setjmp.h \
+ /usr/include/bits/setjmp.h \
+ /usr/local/include/php/Zend/zend_globals_macros.h \
+ /usr/local/include/php/Zend/zend_stack.h \
+ /usr/local/include/php/Zend/zend_ptr_stack.h \
+ /usr/local/include/php/Zend/zend_objects.h \
+ /usr/local/include/php/Zend/zend_objects_API.h \
+ /usr/local/include/php/Zend/zend_float.h /usr/include/fpu_control.h \
+ /usr/local/include/php/Zend/zend_multibyte.h \
+ /usr/local/include/php/Zend/zend_vm_opcodes.h \
+ /usr/local/include/php/Zend/zend_build.h \
+ /usr/local/include/php/Zend/zend_list.h \
+ /usr/local/include/php/Zend/zend_execute.h \
+ /usr/local/include/php/main/build-defs.h /usr/include/ctype.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/environments.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h /usr/local/include/php/main/php_stdint.h \
+ /usr/local/include/php/main/php_config.h /usr/include/inttypes.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h \
+ /usr/local/include/php/Zend/zend_hash.h \
+ /usr/local/include/php/Zend/zend_alloc.h \
+ /usr/local/include/php/Zend/zend_stack.h /usr/include/pwd.h \
+ /usr/include/sys/param.h /usr/include/signal.h \
+ /usr/include/bits/signum.h /usr/include/bits/siginfo.h \
+ /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h \
+ /usr/include/bits/sigstack.h /usr/include/sys/ucontext.h \
+ /usr/include/bits/sigthread.h /usr/include/bits/param.h \
+ /usr/include/linux/param.h /usr/include/asm/param.h \
+ /usr/include/asm-generic/param.h /usr/local/include/php/main/snprintf.h \
+ /usr/local/include/php/main/spprintf.h \
+ /usr/local/include/php/main/php_output.h \
+ /usr/local/include/php/main/php_streams.h /usr/include/sys/time.h \
+ /usr/include/sys/stat.h /usr/include/bits/stat.h \
+ /usr/local/include/php/main/streams/php_stream_context.h \
+ /usr/local/include/php/main/streams/php_stream_filter_api.h \
+ /usr/local/include/php/main/streams/php_stream_transport.h \
+ /usr/include/sys/socket.h /usr/include/sys/uio.h /usr/include/bits/uio.h \
+ /usr/include/bits/socket.h /usr/include/bits/socket_type.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm-generic/socket.h /usr/include/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h \
+ /usr/local/include/php/main/streams/php_stream_plain_wrapper.h \
+ /usr/local/include/php/main/streams/php_stream_glob_wrapper.h \
+ /usr/local/include/php/main/streams/php_stream_userspace.h \
+ /usr/local/include/php/main/streams/php_stream_mmap.h \
+ /usr/local/include/php/main/php_memory_streams.h \
+ /usr/local/include/php/main/fopen_wrappers.h \
+ /usr/local/include/php/main/php_globals.h \
+ /usr/local/include/php/Zend/zend_globals.h \
+ /usr/local/include/php/main/php_ini.h \
+ /usr/local/include/php/Zend/zend_ini.h \
+ /usr/local/include/php/Zend/zend_virtual_cwd.h \
+ /usr/local/include/php/TSRM/TSRM.h \
+ /usr/local/include/php/TSRM/tsrm_config_common.h /usr/include/utime.h \
+ /usr/include/dirent.h /usr/include/bits/dirent.h \
+ /usr/local/include/php/Zend/zend_constants.h \
+ /usr/local/include/php/main/php_reentrancy.h \
+ /usr/local/include/php/main/php.h /usr/include/bits/timex.h \
+ /usr/local/include/php/main/SAPI.h \
+ /usr/local/include/php/Zend/zend_llist.h \
+ /usr/local/include/php/Zend/zend_operators.h \
+ /usr/local/include/php/main/php_main.h \
+ /usr/local/include/php/main/SAPI.h \
+ /usr/local/include/php/main/php_variables.h \
+ /usr/local/include/php/main/php_ini.h
+
+/usr/include/stdc-predef.h:
+
+/usr/include/c++/4.8.2/cstdio:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++config.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/os_defines.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/cpu_defines.h:
+
+/usr/include/stdio.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/home/keything/php-5.6.25/sapi/embed/php_embed.h:
+
+/usr/local/include/php/main/php.h:
+
+/usr/local/include/php/main/php_version.h:
+
+/usr/local/include/php/Zend/zend.h:
+
+/usr/local/include/php/Zend/zend_config.h:
+
+/usr/local/include/php/main/../main/php_config.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/byteswap-16.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/usr/include/bits/stdlib-float.h:
+
+/usr/include/string.h:
+
+/usr/include/math.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathinline.h:
+
+/usr/include/dlfcn.h:
+
+/usr/include/bits/dlfcn.h:
+
+/usr/local/include/php/Zend/zend_errors.h:
+
+/usr/local/include/php/Zend/zend_alloc.h:
+
+/usr/local/include/php/Zend/../TSRM/TSRM.h:
+
+/usr/local/include/php/TSRM/tsrm_config.h:
+
+/usr/local/include/php/Zend/zend.h:
+
+/usr/local/include/php/Zend/zend_types.h:
+
+/usr/local/include/php/Zend/zend_string.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/limits.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/bits/xopen_lim.h:
+
+/usr/local/include/php/Zend/zend_hash.h:
+
+/usr/local/include/php/Zend/zend_ts_hash.h:
+
+/usr/local/include/php/Zend/zend_llist.h:
+
+/usr/local/include/php/Zend/zend_object_handlers.h:
+
+/usr/local/include/php/Zend/zend_ast.h:
+
+/usr/local/include/php/Zend/zend_iterators.h:
+
+/usr/local/include/php/Zend/zend_stream.h:
+
+/usr/local/include/php/Zend/zend_gc.h:
+
+/usr/local/include/php/Zend/zend_operators.h:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/assert.h:
+
+/usr/local/include/php/Zend/zend_strtod.h:
+
+/usr/local/include/php/Zend/zend_multiply.h:
+
+/usr/local/include/php/Zend/zend_variables.h:
+
+/usr/local/include/php/Zend/zend_qsort.h:
+
+/usr/local/include/php/main/php_compat.h:
+
+/usr/local/include/php/main/php_config.h:
+
+/usr/local/include/php/Zend/zend_API.h:
+
+/usr/local/include/php/Zend/zend_modules.h:
+
+/usr/local/include/php/Zend/zend_compile.h:
+
+/usr/local/include/php/Zend/zend_globals.h:
+
+/usr/include/setjmp.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/local/include/php/Zend/zend_globals_macros.h:
+
+/usr/local/include/php/Zend/zend_stack.h:
+
+/usr/local/include/php/Zend/zend_ptr_stack.h:
+
+/usr/local/include/php/Zend/zend_objects.h:
+
+/usr/local/include/php/Zend/zend_objects_API.h:
+
+/usr/local/include/php/Zend/zend_float.h:
+
+/usr/include/fpu_control.h:
+
+/usr/local/include/php/Zend/zend_multibyte.h:
+
+/usr/local/include/php/Zend/zend_vm_opcodes.h:
+
+/usr/local/include/php/Zend/zend_build.h:
+
+/usr/local/include/php/Zend/zend_list.h:
+
+/usr/local/include/php/Zend/zend_execute.h:
+
+/usr/local/include/php/main/build-defs.h:
+
+/usr/include/ctype.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/local/include/php/main/php_stdint.h:
+
+/usr/local/include/php/main/php_config.h:
+
+/usr/include/inttypes.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/local/include/php/Zend/zend_hash.h:
+
+/usr/local/include/php/Zend/zend_alloc.h:
+
+/usr/local/include/php/Zend/zend_stack.h:
+
+/usr/include/pwd.h:
+
+/usr/include/sys/param.h:
+
+/usr/include/signal.h:
+
+/usr/include/bits/signum.h:
+
+/usr/include/bits/siginfo.h:
+
+/usr/include/bits/sigaction.h:
+
+/usr/include/bits/sigcontext.h:
+
+/usr/include/bits/sigstack.h:
+
+/usr/include/sys/ucontext.h:
+
+/usr/include/bits/sigthread.h:
+
+/usr/include/bits/param.h:
+
+/usr/include/linux/param.h:
+
+/usr/include/asm/param.h:
+
+/usr/include/asm-generic/param.h:
+
+/usr/local/include/php/main/snprintf.h:
+
+/usr/local/include/php/main/spprintf.h:
+
+/usr/local/include/php/main/php_output.h:
+
+/usr/local/include/php/main/php_streams.h:
+
+/usr/include/sys/time.h:
+
+/usr/include/sys/stat.h:
+
+/usr/include/bits/stat.h:
+
+/usr/local/include/php/main/streams/php_stream_context.h:
+
+/usr/local/include/php/main/streams/php_stream_filter_api.h:
+
+/usr/local/include/php/main/streams/php_stream_transport.h:
+
+/usr/include/sys/socket.h:
+
+/usr/include/sys/uio.h:
+
+/usr/include/bits/uio.h:
+
+/usr/include/bits/socket.h:
+
+/usr/include/bits/socket_type.h:
+
+/usr/include/bits/sockaddr.h:
+
+/usr/include/asm/socket.h:
+
+/usr/include/asm-generic/socket.h:
+
+/usr/include/asm/sockios.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/local/include/php/main/streams/php_stream_plain_wrapper.h:
+
+/usr/local/include/php/main/streams/php_stream_glob_wrapper.h:
+
+/usr/local/include/php/main/streams/php_stream_userspace.h:
+
+/usr/local/include/php/main/streams/php_stream_mmap.h:
+
+/usr/local/include/php/main/php_memory_streams.h:
+
+/usr/local/include/php/main/fopen_wrappers.h:
+
+/usr/local/include/php/main/php_globals.h:
+
+/usr/local/include/php/Zend/zend_globals.h:
+
+/usr/local/include/php/main/php_ini.h:
+
+/usr/local/include/php/Zend/zend_ini.h:
+
+/usr/local/include/php/Zend/zend_virtual_cwd.h:
+
+/usr/local/include/php/TSRM/TSRM.h:
+
+/usr/local/include/php/TSRM/tsrm_config_common.h:
+
+/usr/include/utime.h:
+
+/usr/include/dirent.h:
+
+/usr/include/bits/dirent.h:
+
+/usr/local/include/php/Zend/zend_constants.h:
+
+/usr/local/include/php/main/php_reentrancy.h:
+
+/usr/local/include/php/main/php.h:
+
+/usr/include/bits/timex.h:
+
+/usr/local/include/php/main/SAPI.h:
+
+/usr/local/include/php/Zend/zend_llist.h:
+
+/usr/local/include/php/Zend/zend_operators.h:
+
+/usr/local/include/php/main/php_main.h:
+
+/usr/local/include/php/main/SAPI.h:
+
+/usr/local/include/php/main/php_variables.h:
+
+/usr/local/include/php/main/php_ini.h:
